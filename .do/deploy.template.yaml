@@ -1,0 +1,9 @@
+spec:
+ name: Twingate connector
+ services:
+ - name: connector
+   image:
+    registry: docker.io
+     repository: twingate/connector
+     tag: 1
+
